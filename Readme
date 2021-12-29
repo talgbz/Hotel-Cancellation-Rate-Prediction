@@ -1,0 +1,30 @@
+The repository is built from three components:
+1. Two Colabs notebooks: EDA and Processing
+2. Dataset file
+3. Presentation
+
+The proposed workflow:
+1. Review project presentation.
+2. Read EDA Colabs. In the workbook, we analyzed each feature and considered whether it correlates to the target, its correlation to other features, and how it will be engineered, if at all.
+3. Proceed to the Process notebook. In the second notebook, we engineered the features, built, a transformer, and pipeline to deploy all relevant models (from Decision Tree to XGBoost).
+   3.1 Features Engineer - Transformer- To understand the features in the transformer, please follow the relevant section of each feature in the EDA and the designated treatment:
+             3.2  Hotel client profile - Customer Type
+             3.3 Country Origin -Drop
+             3.4  Marketing Efforts - Customer Type and Market Segment  -Ohn          
+             3.6  Distribution Channel - Drop
+             3.7  Price - 
+            3.8  Deposit -Fix and Drop 
+            3.9  Lead-Time - No change
+             3.10 Time feature - Arrival Day/ month/year - Ohn
+             3.11 Meals - Ohe
+             3.12 Special requests - Ohn    
+             3.13 Car Parking Space - Fix and Drop 
+             3.14 Days in waiting list - 
+             3.15 Booking Changes -
+             3.16 Agent - Drop
+             3.17 Company - Drop
+             3.18 Is_repeated_guest
+             3.19  Previous Bookings not Cancelled Previous_cancellations - Fix and Drop
+             3.20  Reserved Room Type and Assigned Room Type -Ohn
+             3.21  Reservation Status and Reservation Status Date- Drop
+             3.22 Adults, children, babies - Fix
